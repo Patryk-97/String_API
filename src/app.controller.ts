@@ -5,7 +5,7 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('/:someString')
+  @Get('allCharacters/:someString')
   getAllCharactersInfo(@Param('someString') someString: string): string {
     return this.appService.getAllCharactersInfo(someString);
   }
