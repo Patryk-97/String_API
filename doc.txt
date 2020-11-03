@@ -1,0 +1,15 @@
+1. Clone project from https://github.com/Patryk-97/String_API
+2. Open a project from Visual Studio Code
+3. Open terminal and enter: npm install
+4. Enter: npm start
+5. Go to browser and enter http://localhost:3000/[endpoint]/[stringToAnalysis]
+6. Available endpoints: [endpoint] phrase
+- allCharacters - returns info about small letters, big letters, digits and special characters
+- smallLetters - returns info about small letters
+- digits - returns info about digits
+- specialCharacters - returns info about special characters
+7. [stringToAnalysis] - string to analysis
+8. Examples:
+- http://localhost:3000/allCharacters/aaBb123^
+- http://localhost:3000/digits/9563B[m0
+
