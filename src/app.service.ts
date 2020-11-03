@@ -5,4 +5,8 @@ export class AppService {
   getSmallLetters(someString: string): string {
     return someString.match(/[a-z]/g).toString();
   }
+
+  getBigLetters(someString: string): string {
+    return someString.match(/[A-Z]/g).toString();
+  }
 }
