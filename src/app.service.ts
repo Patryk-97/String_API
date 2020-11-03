@@ -21,7 +21,7 @@ export class AppService {
   getSmallLettersInfo(someString: string): string {
     let smallLetters = this.getSmallLetters(someString);
     if (smallLetters) {
-      return "Small letters: count:" + smallLetters.length + "; " + smallLetters + "]";
+      return "Small letters: count:" + smallLetters.length + "; [" + smallLetters + "]";
     }
     return "Small letters: count: 0";
   }
