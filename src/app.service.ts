@@ -9,4 +9,8 @@ export class AppService {
   getBigLetters(someString: string): string {
     return someString.match(/[A-Z]/g).toString();
   }
+
+  getDigits(someString: string): string {
+    return someString.match(/[0-9]/g).toString();
+  }
 }
