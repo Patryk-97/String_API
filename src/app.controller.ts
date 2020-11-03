@@ -7,6 +7,6 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    return this.appService.getSmallLetters("AaBb34%^r");
+    return this.appService.getSpecialCharacters("AaBb34%^r");
   }
 }

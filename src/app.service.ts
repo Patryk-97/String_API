@@ -13,4 +13,8 @@ export class AppService {
   getDigits(someString: string): string {
     return someString.match(/[0-9]/g).toString();
   }
+
+  getSpecialCharacters(someString: string): string {
+    return someString.match(/[^a-zA-Z0-9]/g).toString();
+  }
 }
